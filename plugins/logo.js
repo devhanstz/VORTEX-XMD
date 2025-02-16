@@ -1,7 +1,7 @@
 const { cmd, commands } = require("../command");
-const { fetchJson } = require("../lib/functions");
+const { fetchJson } = require("../lib/logoctions");
 
-// Function to create the logo based on style
+// logoction to create the logo based on style
 const createLogo = async (bot, from, message, styleUrl, name) => {
   try {
     let apiResponse = await fetchJson(`https://api-pink-venom.vercel.app/api/logo?url=${styleUrl}&name=${name}`);
@@ -19,8 +19,8 @@ const createLogo = async (bot, from, message, styleUrl, name) => {
 cmd({
   pattern: "blackpink",
   desc: "Create Blackpink logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -33,8 +33,8 @@ cmd({
 cmd({
   pattern: "blackpink2",
   desc: "Create Blackpink 2 logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -47,8 +47,8 @@ cmd({
 cmd({
   pattern: "vortex3d",
   desc: "Create Vortex 3D logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -61,8 +61,8 @@ cmd({
 cmd({
   pattern: "naruto",
   desc: "Create Naruto logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -75,8 +75,8 @@ cmd({
 cmd({
   pattern: "digitalglitch",
   desc: "Create Digital Glitch logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -89,8 +89,8 @@ cmd({
 cmd({
   pattern: "pixelglitch",
   desc: "Create Pixel Glitch logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -103,8 +103,8 @@ cmd({
 cmd({
   pattern: "cyberpunk",
   desc: "Create Cyberpunk logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -117,8 +117,8 @@ cmd({
 cmd({
   pattern: "neonlight",
   desc: "Create Neon Light logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -131,8 +131,8 @@ cmd({
 cmd({
   pattern: "smoketext",
   desc: "Create Smoke Text logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -145,8 +145,8 @@ cmd({
 cmd({
   pattern: "firetext",
   desc: "Create Fire Text logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -159,8 +159,8 @@ cmd({
 cmd({
   pattern: "gradient3d",
   desc: "Create Gradient 3D logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -173,8 +173,8 @@ cmd({
 cmd({
   pattern: "cartoon",
   desc: "Create Cartoon Style logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -187,8 +187,8 @@ cmd({
 cmd({
   pattern: "graffiti",
   desc: "Create Graffiti logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -201,8 +201,8 @@ cmd({
 cmd({
   pattern: "icetext",
   desc: "Create Ice Text logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -215,8 +215,8 @@ cmd({
 cmd({
   pattern: "scifitext",
   desc: "Create Sci-Fi Text logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -229,8 +229,8 @@ cmd({
 cmd({
   pattern: "watercolor",
   desc: "Create Watercolor logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -243,8 +243,8 @@ cmd({
 cmd({
   pattern: "luxurygold",
   desc: "Create Luxury Gold logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -257,8 +257,8 @@ cmd({
 cmd({
   pattern: "metallic",
   desc: "Create Metallic logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -271,8 +271,8 @@ cmd({
 cmd({
   pattern: "abstractart",
   desc: "Create Abstract Art logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
@@ -285,8 +285,8 @@ cmd({
 cmd({
   pattern: "americanflag",
   desc: "Create American Flag 3D logo",
-  react: '🎗',
-  category: "fun",
+  react: '💫',
+  category: "logo",
   filename: __filename
 }, async (bot, message, user, { from, quoted, body, command, args, q, reply }) => {
   if (!args[0]) return reply("*_Please provide a name for the logo._*");
