@@ -1,8 +1,16 @@
+//  SUBZERO MD PROPERTY
+// MADE BY MR FRANK
+// REMOVE THIS IF YOU ARE GAY
 
 const axios = require('axios');
 const ytSearch = require('yt-search');
 const config = require('../config');
 const { cmd, commands } = require('../command');
+
+
+//  SUBZERO MD PROPERTY
+// MADE BY MR FRANK
+// REMOVE THIS IF YOU ARE GAY
 
 
 cmd({
@@ -75,11 +83,11 @@ cmd({
     const messagePayload = {
       video: { url: downloadUrl },
       mimetype: 'video/mp4',
-      caption: `*${videoDetails.title || 'Downloaded by 𝑉𝑜𝑟𝒕𝒆𝒙 𝑿𝒎𝒅 💫 ✅'}*`,
+      caption: `*${videoDetails.title || 'Downloaded by VORTEX-XMD ✅'}*`,
       contextInfo: {
         externalAdReply: {
-          title: videoDetails.title || '𝑉𝑜𝑟𝒕𝒆𝒙 𝑿𝒎𝒅 💫 Video Download',
-          body: 'Powered by 𝑉𝑜𝑟𝒕𝒆𝒙 𝑿𝒎𝒅 💫',
+          title: videoDetails.title || 'VORTEX-XMD Video Download',
+          body: 'Powered by VORTEX-XMD 💫',
           mediaType: 1,
           sourceUrl: 'https://github.com/Mrhanstz/VORTEX-XMD', // Replace with your desired link
           thumbnailUrl: firstVideo.thumbnail || 'https://i.ibb.co/k623MMqY/hanstz.jpg',

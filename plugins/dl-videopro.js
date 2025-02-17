@@ -73,9 +73,9 @@ const APIS = [
 ];
 
 cmd({
-  pattern: "playvideo",
+  pattern: "playvideo1",
   react: '🎥',
-  alias: ['ytmp1', 'ytvideo', 'ytvid1'],
+  alias: ['ytmp41', 'ytvideo1', 'ytvid1'],
   desc: "Download video from YouTube by searching for keywords (using multiple APIs).",
   category: "media",
   use: ".playvideo <video name or keywords>",
@@ -87,7 +87,7 @@ cmd({
       return reply("*Please provide a video name or keywords to search for.*");
     }
 
-    reply("*𝑉𝑜𝑟𝒕𝒆𝒙 𝑿𝒎𝒅 💫 Searching Video *");
+    reply("*Subzero Searching Video 🔍*");
 
     // Search for videos on YouTube
     const searchResults = await yts(searchQuery);
@@ -126,7 +126,7 @@ cmd({
       video: { url: downloadUrl },
       mimetype: "video/mp4",
       fileName: title + ".mp4",
-      caption: `> Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ 𝑉𝑜𝑟𝒕𝒆𝒙 𝑿𝒎𝒅 💫`
+      caption: `> Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Vortex xmd⚡`
     }, { quoted: mek });
 
     reply(`✅ *${title}* has been downloaded successfully!`);

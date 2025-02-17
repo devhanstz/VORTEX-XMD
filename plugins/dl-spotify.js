@@ -4,7 +4,7 @@ const { youtube } = require("btch-downloader");
 const { cmd } = require('../command');
 
 cmd({
-  pattern: 'spotify1',
+  pattern: 'spotify',
   alias: ["ytmusic", "music"],
   react: '🎵',
   desc: "Fetch audio from Spotify or YouTube",
